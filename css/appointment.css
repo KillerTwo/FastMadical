@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+	background-color: #F0F0F4;
+
+}
+
+#nav{
+	
+	width: 100%;
+	height: 60px;
+	background-color: #e9e7ef;
+	position: absolute;
+	top: 80px;
+	border: 1px #f0f0f4 solid;	
+}
+ #mav{
+ 	/*position: absolute;*/
+	top: 20px;
+ 	left: 200px;
+ 	font-family:"幼圆";
+ 	font-size: 24px;
+ 	display: inline-block;
+ }
+
+#logo{
+	
+	position: relative;
+	top: 40px;
+	left: 200px;
+	
+}
+
+#login{
+	
+	position: relative;
+	top: 10px;
+	left:300px;
+	display: inline-block;
+}
+
+input{
+	
+		position: relative;
+		margin-top: 20px;
+		margin-left: 550px;
+	
+}	
+
+#test{
+	position: absolute;
+	height: 800px;
+	width: 1px;
+	background-color: black;
+	margin-left: 200px;
+	
+}
+#main{
+	position: relative;
+	width: 750px;
+	height: 250px;
+	/*background-color: red;*/
+	margin-left: 200px;
+	margin-top: 130px;
+	border: 1px #758a99 solid;
+	padding-left: 10px;
+	display: inline-block;
+}
+#p{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 110px;s
+	
+}
+#show{
+	width: 750px;
+	height: 600px;
+	/*background-color: red;*/
+	/*border: 1px #758a99 solid ;*/
+	/*position: absolute;*/
+	margin-left: 200px;
+	margin-top: 20px;
+	display: inline-block;
+
+}
+
+	
+
+
+
+.hover:hover{
+	
+	background-color: blue;
+	color: white;
+	
+}
+
+#ul ,li{
+	
+	list-style: none;
+	float: left;
+	
+}
+#ul ,li,#a{
+
+	line-height:50px;
+	color:#FFF;
+	margin:5px 10px;
+	font-size:24px;/*用12号字*/
+	display:block;/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+	text-align:center;/*让文本居中*/
+	text-decoration:none; /*去掉下划线*/
+	
+	font-family: "幼圆";
+	color: black;
+	
+	padding-left: 90px;
+}
+.time:hover{
+	
+	color: #ff461f;
+	
+}
+	
+.img1{
+	
+	font-size: 24px;
+}
+	
+a{
+	
+	text-decoration: none;
+}	
+
+#sick{
+	width: 350px;
+	height: 875px;
+	/*background-color: red;*/
+	display: inline-block;
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 130px;
+	
+
+}
+#jion{
+	width: 350px;
+	height: 400px;
+	/*background-color: blue;*/
+	font-size: 20px;
+	
+}
+#jion01{
+	width: 350px;
+	height: 400px;
+	/*background-color: blue;*/
+	font-size: 20px;
+	
+}
+
+
+#clear{
+	clear: both;
+	
+}
+#nav01{
+	
+	width: 350px;
+	height: 30px;
+	background-color: #666666;
+	border-radius: 10%;
+	color: black;
+	font-size: 28px;
+	text-align: center;
+	
+}
+

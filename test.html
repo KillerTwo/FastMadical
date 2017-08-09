@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+		
+		<script src="js/home.js"></script>
+		<style type="text/css">
+			div{
+				width: 600px;
+				height: 600px;
+				background-color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			
+		</div>
+		
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				setInterval(function(){
+					$('#div1').fadeOut('slow');
+				},2000);
+				var container = {
+					'0':['朝阳医院','协和医院'],
+					'1':['太平医院','人民医院'],
+					'2':['中华医院','北京医院'],
+					'3':['朝阳医院','协和医院'],
+					'4':['太平医院','人民医院'],
+					'5':['中华医院','北京医院']
+					};
+				alert(container[0][0]);
+			})
+		</script>
+	</body>
+</html>

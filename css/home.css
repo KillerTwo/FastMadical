@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F0F0F4;
+	
+}
+.navbar-default{
+	/*background-color: blue;*/
+}
+.carousel-control {
+	font-size: 100px;
+}
+/*设置轮播图片的样式*/
+.carousel-inner img{
+	height: 500px;
+	
+	margin: 0 auto;
+}
+/*设置搜索框*/
+.input-group{
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+/**
+ *设置按钮样式 
+ */
+.btn-default{
+	font-size: 18px;
+	width: 70%;
+	height: 70%;
+	border: 1px solid skyblue;
+	border-radius: 45%;
+}
+/**
+ * 设置栅格布局
+ */
+
+.row{
+	margin-bottom: 10px;
+}
+#header-row{
+	font-size: 24px;
+}
+/*.col-md-4{
+	padding: 0 5px 5px 5px;
+}*/
+a{
+	text-decoration: none;
+}
+p{
+	cursor: pointer;
+	color: #666;
+	font-size: 18px;
+}
+.container{
+	margin-bottom: 0;
+}
+
+/*设置职位信息显示布局*/
+div.pic{
+	display: inline-block;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+table th{
+	margin-left: 20px;
+	padding-left: 20px;
+	font-size: 22px;
+	cursor: pointer;
+}
+/*.table tr{
+	border-bottom: 1px solid #666;
+}
+*/
