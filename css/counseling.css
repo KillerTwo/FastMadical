@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.header {
+	background-color: dodgerblue;
+}
+
+.font {
+	font-size: 24px;
+	color: white;
+}
+
+.pic {
+	margin-left: 30%;
+}
+
+.row .span1 {
+	font-size: 22px;
+}
+
+.row .span2 {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.row a {
+	font-size: 18px;
+}
+
+span.mony {
+	color: orange;
+}
+
+.pic1 {
+	display: inline-block;
+}

@@ -142,4 +142,21 @@ $('table th').eq(2).click(function(){
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 /********************************************/
+/*
+ * 设置修改信息按钮
+ */
+$('#modify-btn').click(function(){
+	if($(this).text() == '提交'){
+		$('.ds').attr('disabled','disabled');
+		$(this).text('点击修改信息');
+	}
+	else{
+		$('.ds').removeAttr('disabled');
+		$(this).text('提交');
+	}
+	
+	
+});
+
+
 })
